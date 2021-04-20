@@ -15,9 +15,9 @@ var app = new Vue({
       this.isInfo = false;
       axios.get(`https://gateway.marvel.com/v1/public/characters`,{
         params: {
-          apikey: "a5837db97d72016c81a7a776f4240db9",
-          ts: "1",
-          hash: "56e8c7c3ce1e8b6fbf21380cb44d5e0d",
+          apikey: "3d59dd3b828c6400b39fba42bc21007e",
+          ts: "1618940257",
+          hash: "1cef5f39390013e91ed88afc14484353",
           name: this.character
         }
       })
