@@ -9,6 +9,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
 <div id="app">
   <div class="background" v-if="loadInfo">
     <img :src="posts.data.results[0].thumbnail.path + '.' + posts.data.results[0].thumbnail.extension" alt="" />
@@ -42,9 +43,9 @@
       Nothing! Try other or a variation...
     </div>
   </div>
+</div>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'></script><script  src="./script.js"></script>
-
 </body>
 </html>
